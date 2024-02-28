@@ -11,9 +11,9 @@ int main(void)
 
 	n = 20;
 	buffer = malloc(sizeof(char) * 10);
-	printf("Name please: ");
+	printf("$ ");
 	getline(&buffer, &n, stdin);
-	printf("Hello %s", buffer);
+	printf("%s", buffer);
 	free(buffer);
 	return (0);
 }
